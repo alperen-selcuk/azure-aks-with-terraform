@@ -21,5 +21,5 @@ name = {
   "sku-tier"     = "Free"
   "nodepool"     = "default"
   "registry"     = "prodreq"
-  "registry-sku" = "Free"
+  "registry-sku" = "Basic"
 }

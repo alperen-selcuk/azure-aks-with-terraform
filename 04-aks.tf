@@ -27,6 +27,7 @@ resource "azurerm_kubernetes_cluster" "production" {
   tags = {
     Environment = "Production"
   }
+
 }
 
 output "client_certificate" {
