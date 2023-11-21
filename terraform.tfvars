@@ -15,9 +15,11 @@ subnet-2 = {
   "cidr" = "10.255.255.0/24"
 }
 name = {
-  "prod-vnet" = "prod-vnet"
-  "k8s-name"  = "prodk8s"
-  "k8s-dns"   = "prodk8sdns"
-  "sku-tier"  = "Free"
-  "nodepool"  = "default"
+  "prod-vnet"    = "prod-vnet"
+  "k8s-name"     = "prodk8s"
+  "k8s-dns"      = "prodk8sdns"
+  "sku-tier"     = "Free"
+  "nodepool"     = "default"
+  "registry"     = "prodreq"
+  "registry-sku" = "Free"
 }
